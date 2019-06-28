@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.asus.smartlearn.MenuSoal_Matematika">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="340dp"
+        android:layout_height="440dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:scaleType="centerCrop"
+        android:background="#00000000"
+        app:srcCompat="@drawable/frame_soal"/>
+
+    <ImageButton
+        android:id="@+id/btn_cek"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/button_check" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/button_setting" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="135dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/button_score" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_marginTop="5dp"
+        android:layout_width="135dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/button_timer" />
+</RelativeLayout>

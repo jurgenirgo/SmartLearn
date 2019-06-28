@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.asus.smartlearn.Matematika_Activity">
+
+
+    <ImageButton
+        android:id="@+id/btn_tambahkurang"
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:scaleType="centerCrop"
+        android:background="#00000000"
+        app:srcCompat="@drawable/button_materi_tambahkurang" />
+
+    <ImageButton
+        android:id="@+id/btn_kalibagi"
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/btn_tambahkurang"
+        android:layout_alignStart="@+id/btn_tambahkurang"
+        android:layout_below="@+id/btn_tambahkurang"
+        android:scaleType="centerCrop"
+        android:background="#00000000"
+        app:srcCompat="@drawable/button_materi_kalibagi" />
+
+    <ImageButton
+        android:id="@+id/btn_pecahan"
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:layout_alignLeft="@+id/btn_kalibagi"
+        android:layout_alignStart="@+id/btn_kalibagi"
+        android:layout_below="@+id/btn_kalibagi"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/button_materi_pecahan" />
+
+    <ImageButton
+        android:id="@+id/btn_bangundatar"
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:layout_alignLeft="@+id/btn_pecahan"
+        android:layout_alignStart="@+id/btn_pecahan"
+        android:layout_below="@+id/btn_pecahan"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/button_materi_bangundatar" />
+
+    <ImageButton
+        android:id="@+id/btn_keliling"
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:layout_alignLeft="@+id/btn_bangundatar"
+        android:layout_alignStart="@+id/btn_bangundatar"
+        android:layout_below="@+id/btn_bangundatar"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/button_materi_kelilingluaspersegi" />
+
+    <ImageButton
+        android:id="@+id/btn_setting"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:background="#00000000"
+        app:srcCompat="@drawable/button_setting" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:background="#0000"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/button_back" />
+</RelativeLayout>
